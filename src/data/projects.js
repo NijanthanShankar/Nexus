@@ -1,0 +1,55 @@
+export const projects = [
+  {
+    id: 1,
+    title: 'ReturnFlow, RMA Portal',
+    description: 'Enterprise-grade reverse logistics SaaS platform with role-based access (Admin, Ops, Warehouse, Customer), real-time return tracking, warehouse inspection workflows, and advanced analytics dashboard.',
+    thumbnail: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80',
+    tech: ['React', 'PHP', 'MySQL', 'REST API'],
+    category: 'react',
+    liveUrl: 'https://blubirch.nexusprisminnovations.com/',
+  },
+  {
+    id: 2,
+    title: 'Aikya Fertility & Research Centre',
+    description: 'Full-featured fertility clinic website for a NABH-accredited centre in Bangalore. Includes 50+ treatment pages, doctor profiles, appointment booking system, patient success stories, and multilingual phone support.',
+    thumbnail: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&q=80',
+    tech: ['WordPress', 'Custom Theme', 'PHP', 'SEO'],
+    category: 'wordpress',
+    liveUrl: 'https://ivfcentre.nexusprisminnovations.com/',
+  },
+  {
+    id: 3,
+    title: 'Northampton Hip & Knee Clinic',
+    description: 'Professional orthopaedic clinic website for a UK-based specialist. Clean, trust-building design with procedure pages, consultant profiles, and patient enquiry flows optimised for NHS referrals.',
+    thumbnail: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&q=80',
+    tech: ['WordPress', 'Elementor', 'PHP', 'SEO'],
+    category: 'wordpress',
+    liveUrl: 'https://www.northamptonhipandkneeclinic.com/',
+  },
+  {
+    id: 4,
+    title: 'STUTI, Premium Incense Store',
+    description: 'D2C Shopify store for a premium incense and organic gulaal brand. Features seasonal collections (Holi, Diwali), product filtering, WhatsApp chat integration, newsletter capture, and a curated brand identity.',
+    thumbnail: 'https://images.unsplash.com/photo-1603006905003-be475563bc59?w=600&q=80',
+    tech: ['Shopify', 'Liquid', 'CSS', 'Klaviyo'],
+    category: 'shopify',
+    liveUrl: 'https://stutistore.com/',
+  },
+  {
+    id: 5,
+    title: 'Digital Marketing Team',
+    description: 'Agency website for a digital marketing team offering SEO, PPC, and social media services. Clean service-based layout with lead capture forms, case studies section, and conversion-focused design.',
+    thumbnail: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80',
+    tech: ['WordPress', 'PHP', 'SEO', 'Analytics'],
+    category: 'wordpress',
+    liveUrl: 'https://digitalmarketingteam.nexusprisminnovations.com/',
+  },
+]
+
+export const categories = [
+  { id: 'all',       label: 'All Projects' },
+  { id: 'react',     label: 'React Web Apps' },
+  { id: 'wordpress', label: 'WordPress' },
+  { id: 'shopify',   label: 'Shopify Stores' },
+  { id: 'php',       label: 'PHP Projects' },
+]

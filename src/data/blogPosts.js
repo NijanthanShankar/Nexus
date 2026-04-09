@@ -1,0 +1,32 @@
+export const blogPosts = [
+  {
+    id: 1,
+    title: 'Claymorphism in 2025: Why Soft UI is Making a Comeback',
+    excerpt: 'Flat design had its moment. Neumorphism tried to fix it. Claymorphism might actually be the answer, here\'s why developers are embracing it.',
+    category: 'Design',
+    date: 'April 10, 2025',
+    readTime: '5 min read',
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80',
+    slug: 'claymorphism-2025',
+  },
+  {
+    id: 2,
+    title: 'WordPress vs Shopify: Choosing the Right Platform in 2025',
+    excerpt: 'After building on both platforms professionally, here\'s my honest breakdown of when to choose WordPress, when to choose Shopify, and when to use both.',
+    category: 'Development',
+    date: 'March 28, 2025',
+    readTime: '7 min read',
+    image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&q=80',
+    slug: 'wordpress-vs-shopify-2025',
+  },
+  {
+    id: 3,
+    title: 'Building a Role-Based React Dashboard from Scratch',
+    excerpt: 'Role-based access control sounds complex. Here\'s the clean React + Context pattern I used to build a multi-role enterprise portal, with zero bloat.',
+    category: 'React',
+    date: 'March 15, 2025',
+    readTime: '10 min read',
+    image: 'https://images.unsplash.com/photo-1555066931-4365d14431b9?w=600&q=80',
+    slug: 'react-rbac-dashboard',
+  },
+]
