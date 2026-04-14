@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { Send, Mail, MapPin, Github, Linkedin, Twitter } from 'lucide-react'
+import { Send, Mail, MapPin, Github, Linkedin, Twitter, Phone } from 'lucide-react'
 import ClayCard from '../components/ClayCard'
 
 export default function Contact() {
@@ -24,7 +24,7 @@ export default function Contact() {
           Let's <span className="text-primary">Talk</span>
         </h1>
         <p className="text-textMuted font-body text-lg max-w-xl mx-auto">
-          Have a project in mind? I'd love to hear about it. Fill in the form or reach out directly.
+          Have a project in mind? We'd love to hear about it. Fill in the form or reach out directly.
         </p>
       </motion.div>
 
@@ -37,12 +37,12 @@ export default function Contact() {
               <div className="text-center py-10">
                 <div className="text-5xl mb-4">🎉</div>
                 <h3 className="font-heading font-bold text-textMain text-xl mb-2">Message Sent!</h3>
-                <p className="text-textMuted font-body text-sm">I'll get back to you within 24 hours.</p>
+                <p className="text-textMuted font-body text-sm">Our team will get back to you within 24 hours.</p>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-5">
                 {[
-                  { id: 'name',    label: 'Your Name',    type: 'text',  placeholder: 'Praveen Karthikeyan' },
+                  { id: 'name',    label: 'Your Name',    type: 'text',  placeholder: 'John Doe' },
                   { id: 'email',   label: 'Email Address', type: 'email', placeholder: 'hello@example.com' },
                 ].map(({ id, label, type, placeholder }) => (
                   <div key={id}>
@@ -62,7 +62,7 @@ export default function Contact() {
                   <textarea
                     rows={5}
                     required
-                    placeholder="Tell me about your project..."
+                    placeholder="Tell us about your project..."
                     value={form.message}
                     onChange={(e) => setForm({ ...form, message: e.target.value })}
                     className="w-full bg-base border border-white/10 rounded-clay px-4 py-3 text-textMain font-body text-sm placeholder:text-textMuted/50 focus:outline-none focus:border-primary/60 transition-colors resize-none"
@@ -89,7 +89,8 @@ export default function Contact() {
         >
           {[
             { Icon: Mail,    label: 'Email',    value: 'hello@nexusprisminnovations.com', href: 'mailto:hello@nexusprisminnovations.com' },
-            { Icon: MapPin,  label: 'Location', value: 'India (Available Worldwide)',    href: '#' },
+            { Icon: Phone,   label: 'Phone',    value: '+91 (Contact for details)',       href: '#' },
+            { Icon: MapPin,  label: 'Location', value: 'India (Serving Worldwide)',       href: '#' },
           ].map(({ Icon, label, value, href }) => (
             <ClayCard key={label} className="flex items-center gap-4">
               <div className="w-12 h-12 rounded-clay bg-primary/15 flex items-center justify-center text-primary flex-shrink-0">
@@ -105,7 +106,7 @@ export default function Contact() {
           ))}
 
           <ClayCard>
-            <p className="text-textMuted text-sm font-body mb-4">Find me on</p>
+            <p className="text-textMuted text-sm font-body mb-4">Follow us on</p>
             <div className="flex gap-3">
               {[Github, Linkedin, Twitter].map((Icon, i) => (
                 <a
@@ -124,7 +125,7 @@ export default function Contact() {
               Ready to build something great?
             </h3>
             <p className="text-textMuted text-sm font-body">
-              I'm currently available for freelance projects. Response time is typically under 24 hours.
+              We're currently accepting new projects. Our typical response time is under 24 hours.
             </p>
           </ClayCard>
         </motion.div>

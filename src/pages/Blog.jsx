@@ -18,10 +18,10 @@ export default function Blog() {
         className="text-center mb-14"
       >
         <h1 className="font-heading font-extrabold text-5xl text-textMain mb-4">
-          The <span className="text-primary">Blog</span>
+          Our <span className="text-primary">Insights</span>
         </h1>
         <p className="text-textMuted font-body text-lg max-w-xl mx-auto">
-          Thoughts on development, design, and building things that matter.
+          Thoughts on development, design, and building things that matter — from the Nexus Prism team.
         </p>
       </motion.div>
 
@@ -67,7 +67,7 @@ export default function Blog() {
         className="text-center mt-16"
       >
         <div className="inline-block px-6 py-3 rounded-clay bg-surface shadow-clay border border-white/5 text-textMuted text-sm font-body">
-          More articles coming soon, follow along on{' '}
+          More articles coming soon — follow along on{' '}
           <a href="#" className="text-primary hover:underline">LinkedIn</a>
         </div>
       </motion.div>

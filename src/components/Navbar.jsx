@@ -4,11 +4,11 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X } from 'lucide-react'
 
 const links = [
-  { to: '/',        label: 'Home' },
+  { to: '/',         label: 'Home' },
   { to: '/projects', label: 'Projects' },
-  { to: '/about',   label: 'About' },
-  { to: '/blog',    label: 'Blog' },
-  { to: '/contact', label: 'Contact' },
+  { to: '/about',    label: 'About' },
+  { to: '/blog',     label: 'Insights' },
+  { to: '/contact',  label: 'Contact' },
 ]
 
 export default function Navbar() {
@@ -33,8 +33,8 @@ export default function Navbar() {
     >
       <nav className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
-        <Link to="/" className="font-heading font-bold text-xl text-textMain">
-          PK<span className="text-primary">.</span>
+        <Link to="/" className="font-heading font-bold text-xl text-textMain flex items-center gap-2">
+          <span className="text-primary">N</span>exus<span className="text-primary">P</span>rism
         </Link>
 
         {/* Desktop nav */}
@@ -63,7 +63,7 @@ export default function Navbar() {
           to="/contact"
           className="hidden md:inline-flex items-center gap-2 bg-primary text-white font-body font-semibold px-5 py-2.5 rounded-clay shadow-clay clay-btn transition-all duration-200 hover:bg-primary/90 text-sm"
         >
-          Hire Me
+          Get a Quote
         </Link>
 
         {/* Mobile hamburger */}
@@ -101,7 +101,7 @@ export default function Navbar() {
                   onClick={() => setMenuOpen(false)}
                   className="inline-block bg-primary text-white font-semibold px-5 py-2.5 rounded-clay text-sm"
                 >
-                  Hire Me
+                  Get a Quote
                 </Link>
               </li>
             </ul>

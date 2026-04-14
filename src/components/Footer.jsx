@@ -9,10 +9,10 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <h3 className="font-heading font-bold text-2xl text-textMain mb-3">
-              PK<span className="text-primary">.</span>
+              <span className="text-primary">N</span>exus<span className="text-primary">P</span>rism
             </h3>
             <p className="text-textMuted text-sm leading-relaxed">
-              Full Stack Developer crafting high-performance web experiences with React, PHP, WordPress & Shopify.
+              Nexus Prism Innovations — Building high-performance web experiences with React, PHP, WordPress & Shopify for businesses worldwide.
             </p>
           </div>
 
@@ -26,7 +26,7 @@ export default function Footer() {
                     to={path}
                     className="text-textMuted text-sm hover:text-primary transition-colors"
                   >
-                    {['Home', 'Projects', 'About', 'Blog', 'Contact'][i]}
+                    {['Home', 'Projects', 'About', 'Insights', 'Contact'][i]}
                   </Link>
                 </li>
               ))}
@@ -61,7 +61,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/5 pt-6 text-center text-textMuted text-xs">
-          © {new Date().getFullYear()} Praveen Karthikeyan. All rights reserved. Built with ⚡ React + Tailwind.
+          © {new Date().getFullYear()} Nexus Prism Innovations. All rights reserved. Built with ⚡ React + Tailwind.
         </div>
       </div>
     </footer>

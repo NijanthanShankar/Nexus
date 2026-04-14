@@ -23,7 +23,7 @@ export default function LoadingScreen() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.3 }}
       >
-        Loading Portfolio...
+        Nexus Prism Innovations
       </motion.p>
     </motion.div>
   )

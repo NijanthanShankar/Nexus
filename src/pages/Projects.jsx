@@ -27,10 +27,10 @@ export default function Projects() {
         className="text-center mb-14"
       >
         <h1 className="font-heading font-extrabold text-5xl text-textMain mb-4">
-          My <span className="text-primary">Projects</span>
+          Our <span className="text-primary">Projects</span>
         </h1>
         <p className="text-textMuted font-body text-lg max-w-xl mx-auto">
-          Real-world solutions built for real businesses, from enterprise SaaS to D2C stores.
+          Real-world solutions built for real businesses — from enterprise SaaS to D2C stores.
         </p>
       </motion.div>
 
