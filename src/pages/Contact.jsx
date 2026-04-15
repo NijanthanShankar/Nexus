@@ -89,7 +89,7 @@ export default function Contact() {
         >
           {[
             { Icon: Mail,    label: 'Email',    value: 'hello@nexusprisminnovations.com', href: 'mailto:hello@nexusprisminnovations.com' },
-            { Icon: Phone,   label: 'Phone',    value: '+91 (Contact for details)',       href: '#' },
+            { Icon: Phone,   label: 'Phone',    value: '+91 7010268264',       href: 'tel:+917010268264' },
             { Icon: MapPin,  label: 'Location', value: 'India (Serving Worldwide)',       href: '#' },
           ].map(({ Icon, label, value, href }) => (
             <ClayCard key={label} className="flex items-center gap-4">
