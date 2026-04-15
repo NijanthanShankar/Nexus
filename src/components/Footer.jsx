@@ -38,10 +38,10 @@ export default function Footer() {
             <h4 className="font-heading font-semibold text-textMain mb-4">Connect</h4>
             <div className="flex gap-3 mb-6">
               {[
-                { Icon: Github,   href: '#',                         label: 'GitHub' },
-                { Icon: Linkedin, href: '#',                         label: 'LinkedIn' },
-                { Icon: Twitter,  href: '#',                         label: 'Twitter' },
-                { Icon: Mail,     href: 'mailto:hello@nexusprisminnovations.com', label: 'Email' },
+                { Icon: Github,   href: '',                         label: 'GitHub' },
+                { Icon: Linkedin, href: 'https://www.linkedin.com/in/nijanthan-shankar/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3B02x6Fn3vRfmt%2BcTpaYK5Zw%3D%3D',                         label: 'LinkedIn' },
+                { Icon: Twitter,  href: '',                         label: 'Twitter' },
+                { Icon: Mail,     href: 'mailto:info@nexusprisminnovations.com', label: 'Email' },
               ].map(({ Icon, href, label }) => (
                 <a
                   key={label}
