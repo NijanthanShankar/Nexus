@@ -88,7 +88,7 @@ export default function Contact() {
           className="space-y-5"
         >
           {[
-            { Icon: Mail,    label: 'Email',    value: 'hello@nexusprisminnovations.com', href: 'mailto:hello@nexusprisminnovations.com' },
+            { Icon: Mail,    label: 'Email',    value: 'info@nexusprisminnovations.com', href: 'mailto:info@nexusprisminnovations.com' },
             { Icon: Phone,   label: 'Phone',    value: '+91 7010268264',       href: 'tel:+917010268264' },
             { Icon: MapPin,  label: 'Location', value: 'India (Serving Worldwide)',       href: '#' },
           ].map(({ Icon, label, value, href }) => (
